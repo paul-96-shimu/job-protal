@@ -5,6 +5,7 @@ import {
 import RootLayOuts from "../LayOuts/RootLayOuts";
 import Home from "../Pages/Home/Home";
 import Register from "../Pages/Register/Register";
+import Singin from "../Pages/Singin/Singin";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
             {
                 path: '/register',
                 Component: Register
+            },
+            {
+                path: '/singin',
+                Component: Singin
             },
 
         ]
